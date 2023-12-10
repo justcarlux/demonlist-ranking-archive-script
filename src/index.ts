@@ -76,7 +76,7 @@ const sheetsApi = sheets("v4");
     for (let index = 0; index < players.length; index++) {
         const player = players[index];
         const data = await demonlist.fetchPlayer(player.id);
-        logger.run(`- fetched full information of: ${player.name} (${index + 1}/${players.length})`, { color: "green" });
+        logger.run(`- fetched full information of: ${player.name} (${index + 1}/${players.length}) ✓`, { color: "green" });
         playerData.set(player.id, data);
         await wait(requestDelay);
     }
