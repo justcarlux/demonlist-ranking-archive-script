@@ -1,0 +1,27 @@
+{
+    "name": "demonlist-ranking-archive-script",
+    "version": "1.0.0",
+    "description": "Simple script to fetch statistics from the Demonlist Stats Viewer and save them in a Google Sheet.",
+    "main": "index.ts",
+    "scripts": {
+        "start:dev": "npx ts-node --files src/index.ts",
+        "start:build": "node --no-warnings dist/index.js",
+        "build": "node scripts/build.js dist"
+    },
+    "keywords": [],
+    "author": "justcarlux",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.10.4",
+        "fs-extra": "^11.2.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@googleapis/sheets": "^5.0.5",
+        "convert-svg-to-png": "^0.6.4",
+        "google-auth-library": "^9.4.1",
+        "google-spreadsheet": "^4.1.1",
+        "googleapis": "^129.0.0"
+    }
+}
