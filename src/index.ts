@@ -320,7 +320,7 @@ const sheetsApi = sheets("v4");
                             sheetId: worksheet.sheetId,
                             dimension: "COLUMNS",
                             startIndex: 2, 
-                            endIndex: 3, // player column
+                            endIndex: 3, // flag column
                         },
                         properties: {
                             pixelSize: 35
