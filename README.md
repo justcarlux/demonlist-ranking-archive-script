@@ -1,13 +1,10 @@
 # DemonList Ranking Archive Script
 Simple script to fetch statistics from the Demonlist Stats Viewer and save them in a Google Sheet. Original idea from this [tweet](https://twitter.com/VVenom95/status/1731248195941158980) of [@VVenom95](https://twitter.com/VVenom95).
 
-Original idea:
+Currently being used in the public spreadsheet made by them:
+https://docs.google.com/spreadsheets/d/1H0kFIWFAaOaD6-h9Kq3SnPe8tfHn5sshuQ2x9ZWT2yI/
 
-![Original idea image](https://i.imgur.com/ucvAQlp.png)
-
-This script:
-
-![Script image](https://i.imgur.com/1JMFHbJ.png)
+![Script image](https://i.imgur.com/XzFUOPi.png)
 
 # Running:
 
